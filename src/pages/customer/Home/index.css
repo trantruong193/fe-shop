@@ -1,0 +1,26 @@
+.dropdown_item:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+.next-button{
+    border: solid 2px white;
+    border-radius: 20px;
+}
+.next-button:hover {
+    border-color: #ccc;
+}
+.next-button.active{
+    border-color: #ffc107;
+}
+.zoom-button:hover{
+    background-color: #ffc107;
+    cursor: pointer;
+}
+.highlight-product{
+    border: #ccc 1px solid;
+}
+.highlight-product:hover{
+    border: 1px solid #ffc107;
+}
+.highlight-product:hover .zoom-button{
+    background-color: #ffc107;
+}
